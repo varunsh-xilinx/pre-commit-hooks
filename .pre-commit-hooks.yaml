@@ -46,3 +46,9 @@
   description: Runs Include-What-You-Use (iwyu) in C/CPP code
   types_or:  [c, c++, c#, objective-c, cuda]
   language: python
+- id: iwyu-tool
+  name: iwyu-tool
+  entry: iwyu-tool-hook
+  description: Runs iwyu_tool.py (iwyu) in C/CPP code
+  types_or:  [c, c++, c#, objective-c, cuda]
+  language: python
