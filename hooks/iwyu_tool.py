@@ -10,8 +10,8 @@ from hooks.utils import StaticAnalyzerCmd
 class IWYUtoolCmd(StaticAnalyzerCmd):
     """Class for the iwyu-tool.py command."""
 
-    command = "python3 iwyu_tool.py"
-    lookbehind = "python3 iwyu_tool.py "
+    command = "iwyu_tool.py"
+    lookbehind = "iwyu_tool.py "
 
     def __init__(self, args: List[str]):
         super().__init__(self.command, self.lookbehind, args)
